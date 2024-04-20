@@ -61,6 +61,13 @@
     padding: 1rem 3rem;
 }
 
+.cards-nuevochat {
+    display: flex;
+    padding: 5vh;
+    justify-content: center;
+    text-align: center;
+}
+
 .cards-contactos {
     display: flex;
     align-items: center;
