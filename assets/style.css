@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.texto-principal {
+    font-size: 16px;
+}
+
+.texto-secundario {
+    font-size: 10px;
+    color: #828485;
+}
+
+.texto-central {
+    font-size: 45px;
+}
+
+.texto-secundario-2 {
+    font-weight: 400;
+}
+
+.texto-central {
+    font-weight: bold;
+}
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 17rem;
+    border-right: 1px solid #bec1bb;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #e8ebe4;
+}
+.cards-nuevochat {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8ebe4;
+}
+
+.boton {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+
+.cards-contactos {
+    display: flex;
+    align-items: center;
+}
+
+.cards-texto {
+    margin-left: 1rem;
+}
+
+.cards-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.cards-imagen-principal {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.cards-icono {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #828485;
+}
+
+.cards-icono a {
+    color: #828485;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main img {
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.caja-principal {
+    width: 35rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
